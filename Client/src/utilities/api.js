@@ -1,5 +1,5 @@
 //const API_URL = 'http://localhost:8080'
-const API_URL = 'https://todo-server-liart.vercel.app/'
+const API_URL = 'https://todo-server-liart.vercel.app'
 
 export const createTask = async (taskObj) => {
     const url = `${API_URL}/tasks`
