@@ -10,7 +10,7 @@ dotenv.config()
 connectDB()
 const PORT = process.env.PORT || 8080
 
-app.get('/', (req, res)=>{res.send("Sup dawg")})
+app.get('/', (req, res)=>{res.send("ToDo app server")})
 
 app.use(cors())
 app.use(bodyParser.json())
